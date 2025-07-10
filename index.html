@@ -1,0 +1,31 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<script src="styles.css"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Table</title>
+  <style>
+    table, th, td { border: 1px solid black; border-collapse: collapse; padding: 10px; width: -webkit-fill-available; text-align: center; }
+    img { width: 80px; }
+  </style>
+</head>
+<body>
+  <h1>🧩 Pokémon Table (Top 10)</h1>
+  <div id="loader">Loading Pokémon...</div>
+  <table id="pokemonTable">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Types</th>
+        <th>Base XP</th>
+        <th>Abilities</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
